@@ -32,13 +32,14 @@ export const MultipleCustomHook = () => {
           <footer className="blockquote-footer">{data.name}</footer>
 
           <button
+        //   esto lo realice para que cuando llegue al principio, el boton no hiciera nada
             onClick={() => counter > 1 && decrementar()}
             className="btn btn-primary"
           >
             Back
           </button>
 
-          {/* se coloca () => incrementar(1) porque no estoy enviando el evento click, porque si fuere el caso que enviara el evento, fuera asi incrementar(1) */}
+          {/* se coloca () => incrementar() porque no estoy enviando el evento click, porque si fuere el caso que enviara el evento, fuera asi incrementar() */}
           <button onClick={() => incrementar()} className="btn btn-primary">
             Next
           </button>
