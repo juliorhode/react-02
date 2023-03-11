@@ -29,5 +29,3 @@ export const MultipleCustomHook = () => {
   );
 };
 
-
-// token github: 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
